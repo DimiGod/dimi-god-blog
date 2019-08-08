@@ -1,0 +1,11 @@
+body{
+    background-image: url("../images/prism.png");
+}
+
+#profilePhoto{
+    border-radius: 50%;
+}
+
+div {
+    color: white;
+}
