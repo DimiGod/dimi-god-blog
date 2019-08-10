@@ -15,3 +15,7 @@ div {
     bottom: .5;
     right: .5;
 }
+
+#profile2 {
+    border-radius: 50%;
+}
