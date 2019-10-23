@@ -28,3 +28,8 @@ div {
 #publicationText1{
     text-align: center;
 }
+
+.navbar{
+    top: 0;
+    position: sticky;
+}
