@@ -47,6 +47,7 @@
   <div class="container">
     <ul class="list-unstyled">
 
+      <!--Monte Carlo Forecasting-->
       <li class="media my-4">
         <img src="assets/images/monteCarlo_stockForecasting.png" width=600 class="mr-3" alt="pricing plot">
         <div class="media-body">
@@ -61,7 +62,9 @@
           drift values- and then used normal distribution to generate a random array of 1,000 daily returns over 10
           different iterations. The results were then placed in a price list array and subsequently plotted on a chart.
         </div>
+        <!--End Monte Carlo Forecasting-->
 
+        <!--Monte Carlo Predicting Gross Profit -->
       <li class="media my-4">
         <img src="assets/images/monteCarlo_grossProfit.png" width=600 class="mr-3" alt="pricing plot">
         <div class="media-body">
@@ -76,7 +79,23 @@
           values in the revenue array. From there we were able to estimate the max, min, and standard deviation of
           profits, and then create a typical distribution curve.
         </div>
+        <!--End Monte Carlo Predicting Gross Profit -->
+        <!--Monte Carlo Euler Discretization-->
 
+      <li class="media my-4">
+        <img src="assets/images/monteCarlo_euler.png" width=600 class="mr-3" alt="pricing plot">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">Euler Discretization Monte Carlo Simulation</h5>
+          <h6 class="mt-0 mb-1">GitHub Repository<a
+              href="https://github.com/DimiGod/Python_MonteCarloSimulations/blob/master/Euler%20Discretization.ipynb">
+              Click Here
+            </a></h6>
+          I pulled real historical financial data using Yahoo's finance API to run a Euler Discretization simulation.
+          After importing different plugins like numpy, pandas, and matplotlib, I was able to aggregate historical
+          returns and calculate the standard deviations- from there I set up two loops of 250 intervals (average trading
+          days in a year) over 1000 iterations to create an array for the different Forward Difference (S) plot points.
+        </div>
+        <!--End Monte Carlo Euler Discretization-->
       <li class="media my-4">
         <img src="assets/images/dimigodscrowdsourced.png" width=600 class="mr-3" alt="liribot logo">
         <div class="media-body">
